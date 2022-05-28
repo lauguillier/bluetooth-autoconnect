@@ -4,7 +4,7 @@ After=pulseaudio.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/bluetooth-autoconnect
+ExecStart=/usr/local/local/bin/bluetooth-autoconnect
 
 [Install]
 WantedBy=pulseaudio.service

@@ -4,7 +4,7 @@ Before=bluetooth.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/bluetooth-autoconnect -d
+ExecStart=/usr/local/bin/bluetooth-autoconnect -d
 
 [Install]
 WantedBy=bluetooth.service
